@@ -1,0 +1,3 @@
+<template>
+    imageText
+</template>
