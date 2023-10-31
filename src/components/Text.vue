@@ -6,7 +6,7 @@
             <div class="text t-{{ key }}" v-for="(text, key) in textInfo" :key="key">
                 <h3 class="text__title">{{ text.title }}</h3>
                 <p class="text__desc">{{ text.desc }}</p>
-                <a class="text__btn" :href="text.src">더보기</a>
+                <a class="text__btn">더보기</a>
             </div>>
         </div>
     </section>
@@ -39,11 +39,6 @@ export default {
                 {
                     title: "슬라이드 이펙트",
                     desc: "플러그인을 사용하지 않고 이미지 슬라이드를 표현하는 방법에 대해서 체계적으로 배우는 스크립트입니다.",
-                    src: "더보기"
-                },
-                {
-                    title: "검색 이펙트",
-                    desc: "자바스크립트의 기본 메서드를 통해 검색 스크립트를 완성하는 튜토리얼입니다. 메서드를 통해 쉽게 검색을 만들 수 있습니다",
                     src: "더보기"
                 },
                 {
